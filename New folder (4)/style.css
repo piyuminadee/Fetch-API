@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 0 4px 3px pink;
+    width: 23%;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.images{
+    width: 80%;
+}
+.title{
+    font-size: 1.3rem;
+}
